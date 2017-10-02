@@ -1,0 +1,124 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{43, 226}, {109, 41}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "pizza_calculate_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate",
+          "class" : "Button",
+          "uuid" : "7116C3CC-BCA1-4108-A1B5-2B6E5678B9C5",
+          "font_size" : 15,
+          "name" : "pizza_price_calculator"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{43, 172}, {200, 46}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "D27B4567-B492-4C7E-8376-36D4866736DE",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "name" : "diameter_textbox"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{43, 128}, {289, 36}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "785D5DD5-F47F-4A9E-ADD6-0899FC09DA86",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "What is the diameter of the pizza?",
+          "font_size" : 18,
+          "name" : "inquiry_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{251, 180}, {41, 38}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "4576F416-B05E-4EAC-ADCB-CDC68A8E4E43",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "cm",
+          "font_size" : 18,
+          "name" : "unit_of_measurement_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{43, 313}, {447, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "price_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "05B92C43-89E9-472F-86EE-D784A6CEE468",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "The price is $ ______",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{317, 180}, {218, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "D7FAF869-9419-4890-9BCE-B8B61AFFD23F",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "validity_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
